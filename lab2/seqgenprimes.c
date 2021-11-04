@@ -9,7 +9,7 @@ static const bool true = 1;
 #include <string.h>
 #include <math.h>
 #define GEN_SEQ_RES
-#define PRINT_PRIME_NUM
+// #define PRINT_PRIME_NUM
 
 int main(int argc, char** argv)
 {
@@ -27,10 +27,11 @@ int main(int argc, char** argv)
     {
         if(is_prime[x])
         {
-            for(int y = x + 1; y <= N; ++ y)
+            int y = x*x;
+            while(y<=N)
             {
-                if(y % x == 0)
-                    is_prime[y] = false;
+                is_prime[y] = false;
+                y += x;
             }
         }
     }
