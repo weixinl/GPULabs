@@ -1,0 +1,12 @@
+*
+!.gitignore
+
+!lab1/
+lab1/*
+!lab1/heatdist.cu
+!lab1/plot_bar.py
+
+!lab2/
+lab2/*
+!lab2/genprimes.cu
+!lab2/seqgenprimes.c
