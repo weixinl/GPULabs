@@ -10,3 +10,7 @@ lab1/*
 lab2/*
 !lab2/genprimes.cu
 !lab2/seqgenprimes.c
+
+!lab3/
+lab3/*
+!lab3/solveeq.cu
