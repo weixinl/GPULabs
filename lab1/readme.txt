@@ -1,0 +1,4 @@
+- Each kernel executes one element. It updates Mat2 based on Mat1.
+- To meet the Max thread per block requirement, divide the matrix into tiles. Each tile corresponds to a thread block.
+- For each iteration, First execute heat_dist_kernel to calculate a new Mat2, then execute my_device_cpy_kernel to copy Mat2 to Mat1 (ON DEVICE)
+- To make sure the algorithm executes the algorithm as expected, I defined a macro DEBUG_PRINT to debug.

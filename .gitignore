@@ -5,12 +5,15 @@
 lab1/*
 !lab1/heatdist.cu
 !lab1/plot_bar.py
+!lab1/readme.txt
 
 !lab2/
 lab2/*
 !lab2/genprimes.cu
 !lab2/seqgenprimes.c
+!lab2/README.txt
 
 !lab3/
 lab3/*
 !lab3/solveeq.cu
+!lab3/readme.md
